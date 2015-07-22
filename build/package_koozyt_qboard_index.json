@@ -32,7 +32,7 @@
                      "packager" : "arduino"
                   }
                ],
-               "url" : "http://kzt-kits.github.io/qboard_stm32/qboard_stm32.tar.bz2",
+               "url" : "http://koozyt.github.io/qboard_arduino_stm32/qboard_stm32.tar.bz2",
                "category" : "Contributed",
                "archiveFileName" : "qboard_stm32.tar.bz2"
             }
@@ -42,7 +42,7 @@
                "systems" : [
                   {
                      "checksum" : "SHA-256:521808a047a4d67eb6c360e765997bee46522274e81ea1e0e71f5f511a064c70",
-                     "url" : "http://kzt-kits.github.io/uploader_stm32/dfutil-stm32-qboard-0.8.0-windows.tar.bz2",
+                     "url" : "http://koozyt.github.io/qboard_uploader_stm32/dfutil-stm32-qboard-0.8.0-windows.tar.bz2",
                      "archiveFileName" : "dfutil-stm32-qboard-0.8.0-windows.tar.bz2",
                      "size" : "114884",
                      "host" : "i686-mingw32"
