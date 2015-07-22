@@ -32,9 +32,9 @@
                      "packager" : "arduino"
                   }
                ],
-               "url" : "http://kzt-kits.github.io/qboard_stm32/qboard_stm.tar.bz2",
+               "url" : "http://kzt-kits.github.io/qboard_stm32/qboard_stm32.tar.bz2",
                "category" : "Contributed",
-               "archiveFileName" : "qboard_stm.tar.bz2"
+               "archiveFileName" : "qboard_stm32.tar.bz2"
             }
          ],
          "tools" : [
