@@ -1,6 +1,6 @@
 PACKAGE_JSON_STM=package_koozyt_qboard_index.json
 ARCHIVE_STM=qboard_stm32.tar.bz2
-UPLOADER_STM=../koozyt_uploader_stm/build_win/package_qboard_uploader.json
+UPLOADER_STM=../koozyt_uploader_stm/build/package_qboard_uploader.json
 
 all: build/${PACKAGE_JSON_STM}
 
