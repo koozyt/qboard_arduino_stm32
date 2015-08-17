@@ -25,11 +25,6 @@
                      "version" : "0.8.1",
                      "name" : "dfutil-stm32-qboard",
                      "packager" : "koozyt"
-                  },
-                  {
-                     "version" : "0.9.0-arduino",
-                     "name" : "openocd",
-                     "packager" : "arduino"
                   }
                ],
                "url" : "http://koozyt.github.io/qboard_arduino_stm32/qboard_stm32.tar.bz2",
@@ -60,7 +55,7 @@
             }
          ],
          "help" : {
-            "online" : "http://www.koozyt.com/service/qboard/qboard"
+            "online" : "http://www.koozyt.com/service/qboard"
          },
          "websiteURL" : "http://www.koozyt.com/",
          "name" : "koozyt"
