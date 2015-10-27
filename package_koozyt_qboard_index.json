@@ -1,64 +1,64 @@
 {
    "packages" : [
       {
-         "email" : "kzt-qboard-support@googlegroups.com",
-         "maintainer" : "Koozyt, Inc.",
+         "websiteURL" : "http://www.koozyt.com/",
          "platforms" : [
             {
-               "version" : "0.2.2",
-               "name" : "Koozyt Q.Board (M4F STM)",
+               "url" : "http://koozyt.github.io/qboard_arduino_stm32/qboard_stm32-0.2.4.tar.bz2",
+               "size" : "2788745",
                "boards" : [
                   {
                      "name" : "qboard"
                   }
                ],
-               "size" : "2723350",
-               "architecture" : "stm32",
-               "checksum" : "SHA-256:c378f7dd02fca90e0acb5314c275c438379ca6708adff36aec36271c4e563cfc",
+               "name" : "Koozyt Q.Board (M4F STM)",
+               "category" : "Contributed",
+               "checksum" : "SHA-256:ef0aee70c56a008c51c24ec773eb20d7b350824ee68c79caeada31d5b3090fa5",
+               "version" : "0.2.4",
                "toolsDependencies" : [
                   {
                      "version" : "4.8.3-2014q1",
-                     "name" : "arm-none-eabi-gcc",
-                     "packager" : "arduino"
+                     "packager" : "arduino",
+                     "name" : "arm-none-eabi-gcc"
                   },
                   {
+                     "packager" : "koozyt",
                      "version" : "0.8.1",
-                     "name" : "dfutil-stm32-qboard",
-                     "packager" : "koozyt"
+                     "name" : "dfutil-stm32-qboard"
                   }
                ],
-               "url" : "http://koozyt.github.io/qboard_arduino_stm32/qboard_stm32-0.2.2.tar.bz2",
-               "category" : "Contributed",
-               "archiveFileName" : "qboard_stm32-0.2.2.tar.bz2"
+               "architecture" : "stm32",
+               "archiveFileName" : "qboard_stm32-0.2.4.tar.bz2"
             }
          ],
+         "name" : "koozyt",
+         "email" : "kzt-qboard-support@googlegroups.com",
          "tools" : [
             {
+               "name" : "dfutil-stm32-qboard",
                "systems" : [
                   {
+                     "host" : "x86_64-apple-darwin",
                      "checksum" : "SHA-256:dcadf6ab948b3807ba95f88d54b7a2047c8489e57b42633154f2a82114aeabe2",
                      "url" : "http://koozyt.github.io/qboard_uploader_stm32/dfutil-stm32-qboard-0.8.1-mac.tar.bz2",
-                     "archiveFileName" : "dfutil-stm32-qboard-0.8.1-mac.tar.bz2",
                      "size" : "23037",
-                     "host" : "x86_64-apple-darwin"
+                     "archiveFileName" : "dfutil-stm32-qboard-0.8.1-mac.tar.bz2"
                   },
                   {
-                     "checksum" : "SHA-256:521808a047a4d67eb6c360e765997bee46522274e81ea1e0e71f5f511a064c70",
                      "url" : "http://koozyt.github.io/qboard_uploader_stm32/dfutil-stm32-qboard-0.8.1-windows.tar.bz2",
+                     "checksum" : "SHA-256:521808a047a4d67eb6c360e765997bee46522274e81ea1e0e71f5f511a064c70",
+                     "host" : "i686-mingw32",
                      "archiveFileName" : "dfutil-stm32-qboard-0.8.1-windows.tar.bz2",
-                     "size" : "114884",
-                     "host" : "i686-mingw32"
+                     "size" : "114884"
                   }
                ],
-               "version" : "0.8.1",
-               "name" : "dfutil-stm32-qboard"
+               "version" : "0.8.1"
             }
          ],
+         "maintainer" : "Koozyt, Inc.",
          "help" : {
             "online" : "http://www.koozyt.com/service/qboard"
-         },
-         "websiteURL" : "http://www.koozyt.com/",
-         "name" : "koozyt"
+         }
       }
    ]
 }
