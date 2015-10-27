@@ -1,64 +1,64 @@
 {
    "packages" : [
       {
-         "websiteURL" : "http://www.koozyt.com/",
          "platforms" : [
             {
-               "url" : "http://koozyt.github.io/qboard_arduino_stm32/qboard_stm32-0.2.4.tar.bz2",
-               "size" : "2788745",
+               "toolsDependencies" : [
+                  {
+                     "name" : "arm-none-eabi-gcc",
+                     "version" : "4.8.3-2014q1",
+                     "packager" : "arduino"
+                  },
+                  {
+                     "version" : "0.8.1",
+                     "name" : "dfutil-stm32-qboard",
+                     "packager" : "koozyt"
+                  }
+               ],
+               "url" : "http://koozyt.github.io/qboard_arduino_stm32/qboard_stm32-0.2.5.tar.bz2",
+               "archiveFileName" : "qboard_stm32-0.2.5.tar.bz2",
+               "category" : "Contributed",
+               "checksum" : "SHA-256:5b2d30fcc3423b0237b9347dc7be4aeb8236e7d3ef0f4d716180717bc4799894",
+               "architecture" : "stm32",
                "boards" : [
                   {
                      "name" : "qboard"
                   }
                ],
+               "size" : "2788937",
                "name" : "Koozyt Q.Board (M4F STM)",
-               "category" : "Contributed",
-               "checksum" : "SHA-256:ef0aee70c56a008c51c24ec773eb20d7b350824ee68c79caeada31d5b3090fa5",
-               "version" : "0.2.4",
-               "toolsDependencies" : [
-                  {
-                     "version" : "4.8.3-2014q1",
-                     "packager" : "arduino",
-                     "name" : "arm-none-eabi-gcc"
-                  },
-                  {
-                     "packager" : "koozyt",
-                     "version" : "0.8.1",
-                     "name" : "dfutil-stm32-qboard"
-                  }
-               ],
-               "architecture" : "stm32",
-               "archiveFileName" : "qboard_stm32-0.2.4.tar.bz2"
+               "version" : "0.2.5"
             }
          ],
-         "name" : "koozyt",
+         "help" : {
+            "online" : "http://www.koozyt.com/service/qboard"
+         },
          "email" : "kzt-qboard-support@googlegroups.com",
+         "name" : "koozyt",
+         "websiteURL" : "http://www.koozyt.com/",
+         "maintainer" : "Koozyt, Inc.",
          "tools" : [
             {
+               "version" : "0.8.1",
                "name" : "dfutil-stm32-qboard",
                "systems" : [
                   {
-                     "host" : "x86_64-apple-darwin",
-                     "checksum" : "SHA-256:dcadf6ab948b3807ba95f88d54b7a2047c8489e57b42633154f2a82114aeabe2",
-                     "url" : "http://koozyt.github.io/qboard_uploader_stm32/dfutil-stm32-qboard-0.8.1-mac.tar.bz2",
                      "size" : "23037",
-                     "archiveFileName" : "dfutil-stm32-qboard-0.8.1-mac.tar.bz2"
+                     "url" : "http://koozyt.github.io/qboard_uploader_stm32/dfutil-stm32-qboard-0.8.1-mac.tar.bz2",
+                     "archiveFileName" : "dfutil-stm32-qboard-0.8.1-mac.tar.bz2",
+                     "checksum" : "SHA-256:dcadf6ab948b3807ba95f88d54b7a2047c8489e57b42633154f2a82114aeabe2",
+                     "host" : "x86_64-apple-darwin"
                   },
                   {
-                     "url" : "http://koozyt.github.io/qboard_uploader_stm32/dfutil-stm32-qboard-0.8.1-windows.tar.bz2",
-                     "checksum" : "SHA-256:521808a047a4d67eb6c360e765997bee46522274e81ea1e0e71f5f511a064c70",
-                     "host" : "i686-mingw32",
                      "archiveFileName" : "dfutil-stm32-qboard-0.8.1-windows.tar.bz2",
-                     "size" : "114884"
+                     "host" : "i686-mingw32",
+                     "checksum" : "SHA-256:521808a047a4d67eb6c360e765997bee46522274e81ea1e0e71f5f511a064c70",
+                     "size" : "114884",
+                     "url" : "http://koozyt.github.io/qboard_uploader_stm32/dfutil-stm32-qboard-0.8.1-windows.tar.bz2"
                   }
-               ],
-               "version" : "0.8.1"
+               ]
             }
-         ],
-         "maintainer" : "Koozyt, Inc.",
-         "help" : {
-            "online" : "http://www.koozyt.com/service/qboard"
-         }
+         ]
       }
    ]
 }
