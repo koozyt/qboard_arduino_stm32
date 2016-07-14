@@ -5,8 +5,8 @@
           "category": "Contributed",
           "url": "http://koozyt.github.io/qboard_arduino_stm32/packages/qboard_stm32-0.2.17.tar.bz2",
           "archiveFileName": "qboard_stm32-0.2.17.tar.bz2",
-          "checksum": "SHA-256:aa6cd952f609ed926e0b8282753b1a964318ad1bb30c233227a71487e4bee2f6",
-          "size": "2792305",
+          "checksum": "SHA-256:c5362d6ce8c21c0633c329a09140b60f3379b2b6c1ea0a797a0d130abf40954a",
+          "size": "2794006",
           "boards": [
             {
               "name": "qboard"
