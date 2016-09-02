@@ -1,12 +1,12 @@
 {
           "name": "Koozyt Q.Board (M4F STM)",
           "architecture": "stm32",
-          "version": "0.2.22",
+          "version": "0.2.24",
           "category": "Contributed",
-          "url": "http://koozyt.github.io/qboard_arduino_stm32/packages/qboard_stm32-0.2.22.tar.bz2",
-          "archiveFileName": "qboard_stm32-0.2.22.tar.bz2",
-          "checksum": "SHA-256:4aef5c04c27dcb36f3096d6eb53615d1d7b40a6349ca861389b5a266315b048e",
-          "size": "2798514",
+          "url": "http://koozyt.github.io/qboard_arduino_stm32/packages/qboard_stm32-0.2.24.tar.bz2",
+          "archiveFileName": "qboard_stm32-0.2.24.tar.bz2",
+          "checksum": "SHA-256:97448b67e0b22626cee86594d93f343c3e4212ec305191b7c20a35ed58280859",
+          "size": "2799846",
           "boards": [
             {
               "name": "qboard"
